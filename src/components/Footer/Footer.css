@@ -1,0 +1,39 @@
+.footer {
+  background: #ffffff;
+  color: #121212;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer .nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.footer .nav-links a {
+  color: #121212;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer .nav-links a:hover {
+  color: #8A2BE2;
+}
+
+.footer .developer {
+  margin-top: 1rem;
+}
+
+.footer .developer h4 {
+  color: #8A2BE2;
+  margin: 0;
+}
+
+.footer .developer h3 {
+  color: #4B0082;
+  margin: 0;
+}

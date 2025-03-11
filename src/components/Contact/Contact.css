@@ -1,0 +1,40 @@
+#contact {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: #ffffff;
+  color: #121212;
+}
+
+#contact .contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border: 1px solid purple;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact .contact-info-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#contact .contact-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#contact a {
+  color: #121212;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+#contact a:hover {
+  color: #8A2BE2;
+}

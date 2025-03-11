@@ -1,0 +1,53 @@
+#about {
+  padding: 4rem 0;
+}
+
+#about .section-container {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .section__pic-container {
+  width: 400px;
+  height: 400px;
+}
+
+#about .about-pic {
+  border-radius: 2rem;
+  width: 100%;
+  height: auto;
+}
+
+#about .about-details-container {
+  max-width: 600px;
+}
+
+#about .about-containers {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+#about .details-container {
+  flex: 1;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid purple;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+#about .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+#about .arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+  cursor: pointer;
+}

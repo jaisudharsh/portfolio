@@ -1,0 +1,57 @@
+#certifications {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: white;
+}
+
+#certifications .certifications-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#certifications .details-container {
+  background: #f9f9f9;
+  border: 1px solid #A3A3A3;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  width: 250px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#certifications .details-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+#certifications .project-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+#certifications .certifications-sub-title {
+  color: #4B0082; /* Deep violet for elegance */
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+#certifications .btn-container {
+  margin-top: 1rem;
+}
+
+#certifications .btn-color {
+  background: none;
+  border: 2px solid #4B0082;
+  color: #4B0082;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#certifications .btn-color:hover {
+  background: #4B0082;
+  color: white;
+}

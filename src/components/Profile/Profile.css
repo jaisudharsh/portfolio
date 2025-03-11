@@ -1,0 +1,74 @@
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 4rem 0;
+  background-color: #ffffff; /* White Background */
+  color: #121212; /* Dark Text for Contrast */
+}
+
+#profile .section__pic-container {
+  width: 400px;
+  height: 400px;
+}
+
+#profile .section__pic-container img {
+  width: 100%;
+  border-radius: 2rem; /* Original Smooth Rounded Corners */
+}
+
+#profile .section__text {
+  max-width: 600px;
+  text-align: center;
+}
+
+#profile .title {
+  font-size: 3rem;
+  color: black;
+}
+
+#profile .section__text__p2 {
+  font-size: 1.75rem;
+  color: black; /* Bright Violet for Highlight */
+}
+
+#profile .btn-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+#profile .btn-color {
+  background: none;
+  border: 2px solid #4B0082; /* Deep Purple Border */
+  color: #4B0082;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#profile .btn-color:hover {
+  background: #4B0082; /* Deep Purple on Hover */
+  color: white; /* White Text for Contrast */
+}
+
+#profile #socials-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#profile .icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Smooth Scale Effect */
+}
+
+#profile .icon:hover {
+  transform: scale(1.1); /* Enlarge Effect on Hover */
+  opacity: 0.8;
+}
