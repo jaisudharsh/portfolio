@@ -14,10 +14,14 @@
 
 #certifications .details-container {
   background: #f9f9f9;
-  border: 1px solid #A3A3A3;
+  border: 2px solid #4B0082;
   border-radius: 1.5rem;
   padding: 2rem;
   width: 250px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -32,9 +36,11 @@
 }
 
 #certifications .certifications-sub-title {
-  color: #4B0082; /* Deep violet for elegance */
-  font-size: 1.5rem;
-  margin: 1rem 0;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #certifications .btn-container {

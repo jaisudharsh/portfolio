@@ -1,24 +1,31 @@
 import React from 'react';
 import './Certifications.css';
-import awsCpIcon from '../../assets/AWSCP.png';
+import awsCpIcon from '../../assets/AWSCP.jpg';
+import rpaIcon from '../../assets/rpaIcon.avif';
+import redHat from '../../assets/redHat.jpg';
+import salesForce from '../../assets/salesForce.jpg';
 
 function Certifications() {
   const certifications = [
     {
-      title: 'AWS CP',
-      url: 'https://www.credly.com/badges/b4be7cc3-9205-479c-aeab-69d700b05bc0/public_url'
+      title: 'AWS CERTIFIED CLOUD PRACTITIONER',
+      url: 'https://www.credly.com/badges/b4be7cc3-9205-479c-aeab-69d700b05bc0/public_url',
+      img: awsCpIcon
     },
     {
-      title: 'AWS Solutions Architect',
-      url: 'https://www.credly.com/badges/sample-url-1/public_url'
+      title: 'AUTOMATION ANYWHERE RPA',
+      url: 'https://certificates.automationanywhere.com/28a51bde-fe09-455f-8727-927976dd5e05#acc.YUdIboJq',
+      img: rpaIcon
     },
     {
-      title: 'AWS Security Specialist',
-      url: 'https://www.credly.com/badges/sample-url-2/public_url'
+      title: 'REDHAT EX-183',
+      url: 'https://rhtapps.redhat.com/verify?certId=240-199-166',
+      img: redHat
     },
     {
-      title: 'AWS Developer Associate',
-      url: 'https://www.credly.com/badges/sample-url-3/public_url'
+      title: 'SALESFORCE CERTIFIED AI ASSOCIATE',
+      url: 'https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=vxsUNpn6AFWPROh9Sa9/dKnKNUTl6oBuA7+dNUw9cMk9KYMWQVoXOXygAYJE4WWQ',
+      img: salesForce
     }
   ];
 
@@ -30,7 +37,7 @@ function Certifications() {
         {certifications.map((cert, index) => (
           <div key={index} className="details-container color-container">
             <div className="article-container">
-              <img src={awsCpIcon} alt={cert.title} className="project-img" />
+              <img src={cert.img} alt={cert.title} className="project-img" />
             </div>
             <h2 className="certifications-sub-title">{cert.title}</h2>
             <div className="btn-container">
