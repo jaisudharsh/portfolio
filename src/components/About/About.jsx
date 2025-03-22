@@ -3,7 +3,6 @@ import './About.css';
 import aboutPic from '../../assets/about-pic.png';
 import experienceIcon from '../../assets/experience.png';
 import educationIcon from '../../assets/education.png';
-import arrowIcon from '../../assets/arrow.png';
 
 function About() {
   return (
@@ -38,12 +37,6 @@ function About() {
           </div>
         </div>
       </div>
-      <img
-        src={arrowIcon}
-        alt="Arrow"
-        className="icon arrow"
-        onClick={() => (window.location.href = './#certifications')}
-      />
     </section>
   );
 }
