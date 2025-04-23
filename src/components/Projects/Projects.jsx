@@ -55,12 +55,14 @@ function Projects() {
             >
               View in Github
             </button>
-            <button
-              className="btn btn-color"
-              onClick={() => window.open(project.articeLink, '_blank')}
-            >
-              View Linkedin Article
-            </button>
+            {project.articeLink && (
+              <button
+                className="btn btn-color"
+                onClick={() => window.open(project.articeLink, '_blank')}
+              >
+              View LinkedIn Article
+              </button>
+            )}
           </div>
         ))}
       </div>
