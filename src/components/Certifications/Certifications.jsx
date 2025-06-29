@@ -4,7 +4,7 @@ import awsCpIcon from '../../assets/AWSCP.jpg';
 import rpaIcon from '../../assets/rpaIcon.avif';
 import redHat from '../../assets/redHat.jpg';
 import salesForce from '../../assets/salesForce.jpg';
-
+import LINGUASKILL from '../../assets/LINGUASKILL.png';
 function Certifications() {
   const certifications = [
     {
@@ -26,6 +26,11 @@ function Certifications() {
       title: 'SALESFORCE CERTIFIED AI ASSOCIATE',
       url: 'https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=vxsUNpn6AFWPROh9Sa9/dKnKNUTl6oBuA7+dNUw9cMk9KYMWQVoXOXygAYJE4WWQ',
       img: salesForce
+    },
+    {
+      title: 'LINGUA SKILL CERTIFICATE',
+      url: 'https://drive.google.com/file/d/1HTeUawU_OJ7Ks4AAQfGig3NxMmLh2ZgK/view',
+      img: LINGUASKILL
     }
   ];
 

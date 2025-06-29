@@ -25,7 +25,7 @@ function About() {
               <h3>Education</h3>
               <p>
                 B.Tech in Computer Science and Engineering<br />
-                Specialized in Cyber Security and Blockchain Technology
+                Student at K L Deemed to be University, Vaddeswaram, Guntur, AP
               </p>
             </div>
           </div>
