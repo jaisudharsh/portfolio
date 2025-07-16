@@ -5,6 +5,7 @@ import project2 from '../../assets/project2.png';
 import project3 from '../../assets/project3.jpeg';
 import project4 from '../../assets/project4.jpeg';
 import project5 from '../../assets/project5.jpeg';
+import project6 from '../../assets/project-6.png';
 
 function Projects() {
   const projectList = [
@@ -36,6 +37,12 @@ function Projects() {
       title: 'Bus Booking System using .NET', 
       imgSrc: project5, 
       githubLink: 'https://github.com/Greeshmanth3699/BusBookingSystem',
+      articeLink: ''
+    },
+    { 
+      title: 'Secure Password Manager using Cloud Services', 
+      imgSrc: project6, 
+      githubLink: 'https://github.com/Abhiram2004git/securepaswordmanager',
       articeLink: ''
     }
   ];

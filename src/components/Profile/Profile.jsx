@@ -17,7 +17,8 @@ function Profile() {
         <div className="btn-container">
           <button
             className="btn btn-color"
-            onClick={() => window.open('/jai-sudharsh-mattupalli-resume.pdf', '_blank')}
+            // onClick={() => window.open('/jai-sudharsh-mattupalli-resume.pdf', '_blank')}
+            onClick={() => window.open('/mattupalli-jai-sudharsh-resume.pdf', '_blank')}
           >
             View / Download My Resume
           </button>
