@@ -24,7 +24,7 @@ function Certifications() {
     },
     {
       title: 'SALESFORCE CERTIFIED AI ASSOCIATE',
-      url: 'https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=vxsUNpn6AFWPROh9Sa9/dKnKNUTl6oBuA7+dNUw9cMk9KYMWQVoXOXygAYJE4WWQ',
+      url: 'https://trailhead.salesforce.com/en/credentials/certification-detail-print?searchString=dmDuScIAw5ikoCg8/m1OKNxsSMbkzK4Lie0b/RdyG05vaA86WyNo9xv+3eIkKeO/',
       img: salesForce
     },
     {
