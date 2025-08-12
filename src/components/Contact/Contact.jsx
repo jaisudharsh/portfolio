@@ -1,4 +1,3 @@
-
 import React, { useRef } from 'react';
 import './Contact.css';
 import emailIcon from '../../assets/email.png';
@@ -23,30 +22,18 @@ function Contact() {
       })
       .then(
         () => {
-          console.log('✅ Your message has been sent!');
           toast.success('Your message has been sent!', {
             position: "top-right",
             autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
             theme: "light",
             transition: Bounce,
           });
           form.current.reset();
         },
         (error) => {
-          console.error('FAILED...', error.text);
           toast.error('Failed to send message. Please try again later.', {
             position: "top-right",
             autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
             theme: "light",
             transition: Bounce,
           });
@@ -60,6 +47,7 @@ function Contact() {
       <h1 className="title">Contact Me</h1>
 
       <div className="contact-flex-container">
+        {/* Left - Contact Info */}
         <div className="contact-info-upper-container">
           <div className="contact-info-container">
             <img src={emailIcon} alt="Email" className="icon contact-icon" />
@@ -87,6 +75,7 @@ function Contact() {
           </div>
         </div>
 
+        {/* Right - Form */}
         <div className="mailservice-container">
           <form ref={form} onSubmit={sendEmail} className="mailservice-form">
             <label>Name</label>
@@ -98,7 +87,7 @@ function Contact() {
             <label>Message</label>
             <textarea name="message" rows="5" required />
 
-            <input type="submit" value="Send" className="mailservice-submit" />
+            <input type="submit" value="Send Message" className="mailservice-submit" />
           </form>
           <ToastContainer />
         </div>
