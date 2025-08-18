@@ -5,6 +5,7 @@ import rpaIcon from '../../assets/rpaIcon.avif';
 import redHat from '../../assets/redHat.jpg';
 import salesForce from '../../assets/salesForce.jpg';
 import LINGUASKILL from '../../assets/LINGUASKILL.png';
+import NATTEST from '../../assets/NAT-TEST.png';
 function Certifications() {
   const certifications = [
     {
@@ -31,6 +32,11 @@ function Certifications() {
       title: 'LINGUA SKILL CERTIFICATE',
       url: 'https://drive.google.com/file/d/1HTeUawU_OJ7Ks4AAQfGig3NxMmLh2ZgK/view',
       img: LINGUASKILL
+    },
+    {
+      title: 'NAT 5Q (N5 equivalent)',
+      url: 'https://drive.google.com/file/d/1MHULbg09DAxPcLWgw0tGzmB1jgGnYdmC/view',
+      img: NATTEST
     }
   ];
 

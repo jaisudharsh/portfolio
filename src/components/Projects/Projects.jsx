@@ -6,6 +6,7 @@ import project3 from '../../assets/project3.jpeg';
 import project4 from '../../assets/project4.jpeg';
 import project5 from '../../assets/project5.jpeg';
 import project6 from '../../assets/project-6.png';
+import project7 from '../../assets/project-7.jpg';
 
 function Projects() {
   const projectList = [
@@ -44,6 +45,13 @@ function Projects() {
       imgSrc: project6, 
       githubLink: 'https://github.com/Abhiram2004git/securepaswordmanager',
       articeLink: ''
+    },
+    { 
+      title: 'Web Application for SMART MOBILE enterprise',
+      imgSrc: project7,
+      githubLink: 'https://github.com/jaisudharsh/smart-mobile-vijayawadar',
+      articeLink: '',
+      deployLink: 'https://smartmobilevijayawada.netlify.app/'
     }
   ];
 
@@ -62,12 +70,22 @@ function Projects() {
             >
               View in Github
             </button>
+            <br/>
             {project.articeLink && (
               <button
                 className="btn btn-color"
                 onClick={() => window.open(project.articeLink, '_blank')}
               >
               View LinkedIn Article
+              </button>
+            )}
+            <br/>
+            {project.deployLink && (
+              <button
+                className="btn btn-color"
+                onClick={() => window.open(project.deployLink, '_blank')}
+              >
+              View Project
               </button>
             )}
           </div>
