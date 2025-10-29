@@ -44,7 +44,8 @@ function Projects() {
       title: 'Secure Password Manager using Cloud Services', 
       imgSrc: project6, 
       githubLink: 'https://github.com/Abhiram2004git/securepaswordmanager',
-      articeLink: ''
+      articeLink: '',
+      deployLink: 'https://securepaswordmanager.vercel.app/'
     },
     { 
       title: 'Web Application for SMART MOBILE enterprise',
